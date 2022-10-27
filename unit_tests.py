@@ -17,7 +17,7 @@ class TestBankAccount(unittest.TestCase):
     def test_deposit(self):
         bal = self.a1.balance
         self.assertEqual(bal, 1000)
-        self.assertEqual(self.a1.name, "Chris")
+        self.assertEqual(self.a1.name, "Chr")
         self.a1.deposit(500)
         self.assertEqual(self.a1.balance, 1500)
 

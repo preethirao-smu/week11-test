@@ -52,4 +52,4 @@ jobs:
       - name: Test with unittest
         #runs the unittest
         run: |
-          #TODO: Add the command to run all the unittest here.
+          python unit_tests.py
